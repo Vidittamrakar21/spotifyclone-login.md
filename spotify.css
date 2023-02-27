@@ -9,10 +9,10 @@ body{
 
 .logo img{
     opacity: 0.7;
-    height: 120px;
-    width: 350px;
+    height: 90px;
+    width: 300px;
     padding: 25px;
-    margin-top: 50px;
+    margin-top: 15px;
     
 }
 .logo{
@@ -21,8 +21,8 @@ body{
 }
 
 .container{
-    width: 530px;
-    height: 550px;
+    width: 350px;
+    height: 420px;
     
     display: flex;
     flex-direction: column;
@@ -33,9 +33,9 @@ body{
 }
 
 input{
-    padding: 35px;
+    padding: 15px;
     margin: 25px;
-    width: 350px;
+    width: 250px;
     height: 10px;
     background-color: rgba( 255,255,255, 0.5);
     border-radius: 50px;
@@ -57,8 +57,8 @@ h2{
 }
 
 button{
-    width: 410px;
-    height: 50px;
+    width: 280px;
+    height: 40px;
     padding: 0px;
     margin: 25px;
     border-radius: 25px;
@@ -71,4 +71,20 @@ button{
 .btn:hover{
     background-color: rgb(4, 141, 4);
     cursor: pointer;
+}
+
+.foot .box{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    
+}
+
+#box1{
+    margin-left: -40px;
+}
+
+#box2{
+    margin-left: 130px;
+    margin-top: -45px;
 }
