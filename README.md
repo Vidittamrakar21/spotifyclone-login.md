@@ -2,4 +2,5 @@
 This is a clone of spotify login page
 
 it is just the UI part of spotify login page
-![Screenshot (434)](https://user-images.githubusercontent.com/114985411/219487653-b294d991-b466-4132-bcfa-04bce32f288d.png)
+![Screenshot (541)](https://user-images.githubusercontent.com/114985411/221660160-bbf62100-71b2-44ed-b674-df5f5b83041f.png)
+
