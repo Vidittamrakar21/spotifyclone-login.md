@@ -1,16 +1,16 @@
 body{
         
-    background: url('https://www.businessinsider.in/photo/68737328/apple-music-spotify-jiosaavn-gaana-subscription-price-in-india.jpg?imgsize=737340');
-    background-size: cover;
+    background: url('https://i.computer-bild.de/imgs/1/4/1/2/4/7/5/3/music-93ab29a9c14d7ab8.jpg');
+    background-size:  cover;
     background-repeat: no-repeat;
     background-color: black;
     font-family: 'Fjalla One', sans-serif;
 }
 
 .logo img{
-    opacity: 0.7;
+    opacity: 0.001;
     height: 90px;
-    width: 300px;
+    width: 30px;
     padding: 25px;
     margin-top: 15px;
     
@@ -28,8 +28,10 @@ body{
     flex-direction: column;
     border-radius: 25px;
     align-items: center;
-    margin: auto;
+    margin-top: 80px;
+    margin-left: 510px;
     background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
 input{
@@ -53,7 +55,8 @@ color: rgb(47, 46, 46);
 }
 h2{
     text-align: center;
-    color: rgb(29, 29, 29);
+    color: rgba(249, 249, 249, 0.937);
+    display: none;
 }
 
 button{
@@ -87,4 +90,9 @@ button{
 #box2{
     margin-left: 130px;
     margin-top: -45px;
+}
+
+.foot .box a{
+    color: rgba(255, 255, 255, 0.819);
+    text-decoration: none;
 }
