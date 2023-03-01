@@ -1,18 +1,16 @@
 body{
         
-    background: url('https://i.computer-bild.de/imgs/1/4/1/2/4/7/5/3/music-93ab29a9c14d7ab8.jpg');
-    background-size:  cover;
-    background-repeat: no-repeat;
-    background-color: black;
     font-family: 'Fjalla One', sans-serif;
+    background-color: black;
+    background: url("https://images.unsplash.com/photo-1528728935509-22fb14722a30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGlzdGVuaW5nJTIwdG8lMjBtdXNpY3xlbnwwfHwwfHw%3D&w=1000&q=80") no-repeat center center/cover;
 }
 
 .logo img{
-    opacity: 0.001;
-    height: 90px;
-    width: 30px;
-    padding: 25px;
-    margin-top: 15px;
+    opacity: 0.9;
+    height: 125px;
+    width: 200px;
+    padding: 2px;
+    margin-top: 5px;
     
 }
 .logo{
@@ -34,6 +32,72 @@ body{
     
 }
 
+input{
+    padding: 15px;
+    margin: 25px;
+    width: 250px;
+    height: 10px;
+    background-color: rgba( 255,255,255, 0.5);
+    border-radius: 50px;
+    border: none;
+    color: black;
+    font-size: 18px;
+
+}
+form ::placeholder{
+color: rgb(47, 46, 46);
+}
+
+.name{
+    margin-top: 40px;
+}
+h2{
+    text-align: center;
+    color: rgba(249, 249, 249, 0.937);
+    display: none;
+}
+
+button{
+    width: 280px;
+    height: 40px;
+    padding: 0px;
+    margin: 25px;
+    border-radius: 25px;
+    font-size: 22px;
+    background-color: rgb(36, 214, 36);
+    border: none;
+
+}
+
+.btn:hover{
+    background-color: rgb(4, 141, 4);
+    cursor: pointer;
+}
+
+.foot .box{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    
+}
+
+#box1{
+    margin-left: -40px;
+}
+
+#box2{
+    margin-left: 130px;
+    margin-top: -45px;
+}
+
+.foot .box a{
+    color: rgba(255, 255, 255, 0.819);
+    text-decoration: none;
+}
+.foot .box a:hover{
+    color: rgba(180, 179, 179, 0.819);
+    
+}
 input{
     padding: 15px;
     margin: 25px;
